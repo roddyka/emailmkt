@@ -1,38 +1,5 @@
 <!--
-==================== Respmail ====================
-Respmail is a response HTML email designed to work
-on all major devices and responsive for smartphones
-that support media queries.
 
-** NOTE **
-This template comes with a lot of standard features
-that has been thoroughly tested on major platforms
-and devices, it is extremely flexible to use and
-can be easily customized by removing any row that
-you do not need.
-
-it is gauranteed to work 95% without any major flaws,
-any changes or adjustments should thoroughly be
-tested and reviewed to match with the general
-structure.
-
-** Profile **
-Licensed under MIT (https://github.com/charlesmudy/responsive-html-email-template/blob/master/LICENSE)
-Designed by Shina Charles Memud
-Respmail v1.2 (http://charlesmudy.com/respmail/)
-
-** Quick modification **
-We are using width of 500 for the whole content,
-you can change it any size you want (e.g. 600).
-The fastest and safest way is to use find & replace
-Sizes: [
-		wrapper   : '500',
-		columns   : '210',
-		x-columns : [
-						left : '90',
-						right: '350'
-				]
-		}
 	-->
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -51,7 +18,7 @@ Sizes: [
 			table[id=bodyTable] {width:100%!important;margin:auto;max-width:500px!important;color:#7A7A7A;font-weight:normal;}
 			img, a img{border:0; outline:none; text-decoration:none;height:auto; line-height:100%;}
 			a {text-decoration:none !important;border-bottom: 1px solid;}
-			h1, h2, h3, h4, h5, h6{color:#5F5F5F; font-weight:normal; font-family:Helvetica; font-size:20px; line-height:125%; text-align:Left; letter-spacing:normal;margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;}
+			h1, h2, h3, h4, h5, h6{color:#707070; font-weight:normal; font-family:Helvetica; font-size:20px; line-height:125%; text-align:Left; letter-spacing:normal;margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;}
 
 			/* CLIENT-SPECIFIC STYLES */
 			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
@@ -305,8 +272,11 @@ Sizes: [
 										The centering table keeps the content
 										tables centered in the emailBody table,
 										in case its width is set to 100%.
+										background IMG here
+
+										https://imgur.com/lKmyEkz.png
 									-->
-									<table border="0" cellpadding="0" cellspacing="0" width="100%" style="color:#FFFFFF;" bgcolor="#3498db">
+									<table border="0" cellpadding="0" cellspacing="0" width="100%" style="color:#FFFFFF; background: transparent url('https://imgur.com/lKmyEkz.png') no-repeat  center  center padding-box;">
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
@@ -329,17 +299,45 @@ Sizes: [
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" class="textContent">
-																		<h1 style="color:#FFFFFF;line-height:100%;font-family:Helvetica,Arial,sans-serif;font-size:35px;font-weight:normal;margin-bottom:5px;text-align:center;">Introduction header</h1>
-																		<!-- <h2 style="text-align:center;font-weight:normal;font-family:Helvetica,Arial,sans-serif;font-size:23px;margin-bottom:10px;color:#205478;line-height:135%;">Subheader introduction</h2>
-																		<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</div> -->
+																							<table align="left" border="0" cellpadding="10" cellspacing="0" width="100%">
+																								<tr>
+																									<td align="left" valign="top" class="flexibleContainerBox" style="background-color:#ffffff6b;">
+																										<table border="0" cellpadding="10" cellspacing="0" width="100%" style="max-width:100%;">
+																											<tr>
+																												<td align="left" class="textContent">
+																													<img src="https://i.imgur.com/WgtMEIU.png" alt="logo" width="200" srcset="">
+																												</td>
+																											</tr>
+																										</table>
+																									</td>
+																									<td align="right" valign="top" class="flexibleContainerBox" style="background-color:#ffffff6b;">
+																										<table class="flexibleContainerBoxNext" border="0" cellpadding="10" cellspacing="0" width="100%" style="max-width:100%;">
+																											<tr>
+																												<td align="left" class="textContent">
+																													<img src="https://imgur.com/0eiOO4w.png" alt="logo" width="200" srcset="">
+																												</td>
+																											</tr>
+																										</table>
+																										
+																									</td>
+																									
+																								</tr>
+																								
+																							</table>					
+																							<div style="text-align:center;font-family:Roboto,Helvetica,Arial,sans-serif;color:#ffffff;margin-bottom: -20px;margin-top: 100px;">#Update Março 2020</div>
+																		<!--<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</div> -->
 																	</td>
+																	
 																</tr>
+																
 															</table>
 															<!-- // CONTENT TABLE -->
-
-														</td>
+																		</td>
+																		
 													</tr>
+													
 												</table>
+												
 												<!-- // FLEXIBLE CONTAINER -->
 											</td>
 										</tr>
@@ -373,8 +371,8 @@ Sizes: [
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 100%;">
 																			<tr>
 																				<td align="left" class="textContent">
-																					<h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Left Column</h3>
-																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Alteração na legislação das Ilhas Virgens Britânicas (BVIs)
+																					<h3 style="color:#707070;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Left Column</h3>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#707070;line-height:135%;">Alteração na legislação das Ilhas Virgens Britânicas (BVIs)
 
  
 
@@ -457,7 +455,7 @@ Sizes: [
 															<table align="left" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
 																<tr>
 																	<td align="left" valign="top" class="textContent">
-																		<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:10px;color:#5F5F5F;line-height:135%;">
+																		<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:10px;color:#707070;line-height:135%;">
 																			Estão englobas no conceito de atividades relevantes, nos termos da Lei, as empresas que se dedicarem aos seguintes ramos:</div>
 																	</td>
 																</tr>
@@ -479,7 +477,7 @@ Sizes: [
 <tr>
 	<td align="center" valign="top">
 		<!-- CENTERING TABLE // -->
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8F8F8">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF">
 			<tr>
 				<td align="center" valign="top">
 					<!-- FLEXIBLE CONTAINER // -->
@@ -499,7 +497,7 @@ Sizes: [
 															you to edit certain row. It makes it easy for you to quickly edit row sections.
 															http://kb.mailchimp.com/templates/code/create-editable-content-areas-with-mailchimps-template-language
 														-->
-															<ul>
+															<ul style="padding-left: 30px;">
 															<li>- bancário;
 							
 																</li>
@@ -564,8 +562,8 @@ Sizes: [
 												<table border="0" cellpadding="0" cellspacing="0" width="100%">
 													<tr>
 														<td valign="top" class="textContent">
-															<!-- <h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Message Title</h3> -->
-															<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">
+															<!-- <h3 style="color:#707070;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Message Title</h3> -->
+															<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#707070;line-height:135%;">
 																As holdings incluídas serão obrigadas a identificar qualquer pessoa que seja uma controladora, um beneficiário efetivo ou uma entidade legal registrável dessa entidade corporativa e jurídica. Caso a holding esteja registrada em uma bolsa de valores reconhecida, deverá fornecer detalhes de seu registro para que o agente registrado possa coletar as informações prescritas em relação a cada entidade legal para a qual atua. As sociedades que estiverem abarcadas pelo conceito de atividades relevantes terão a obrigação de ter funcionários e uma sede nas Ilhas Virgens Britânicas que sejam compatíveis com a sua atividade.
 
 																<br><br>
@@ -611,8 +609,8 @@ Sizes: [
 												<table border="0" cellpadding="0" cellspacing="0" width="100%">
 													<tr>
 														<td valign="top" class="textContent">
-															 <h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">ITCMD: tendência de aumento das alíquotas</h3> 
-															<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">
+															 <h3 style="color:#707070;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">ITCMD: tendência de aumento das alíquotas</h3> 
+															<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#707070;line-height:135%;">
 																
 
  
@@ -658,18 +656,19 @@ Sizes: [
 		</td>
 	</tr>
 	<!-- // MODULE ROW -->
+	<div style="text-align: center;">
 							<!-- MODULE ROW // -->
-							<tr>
+							<tr >
 								<td align="center" valign="top">
 									<!-- CENTERING TABLE // -->
-									<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8F8F8">
+									<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" >
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" class="flexibleContainer" >
 													<tr>
-														<td align="center" valign="top" width="500" class="flexibleContainerCell">
-															<table border="0" cellpadding="30" cellspacing="0" width="100%">
+														<td align="center" valign="top" width="100%" class="flexibleContainerCell">
+															<table border="0" cellpadding="40" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top">
 
@@ -682,16 +681,16 @@ Sizes: [
 																						you to edit certain row. It makes it easy for you to quickly edit row sections.
 																						http://kb.mailchimp.com/templates/code/create-editable-content-areas-with-mailchimps-template-language
 																					-->
-																					<!-- <h3 mc:edit="header" style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Message Title</h3> -->
-																					<!-- <div mc:edit="body" style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</div> -->
-																					<table border="1">
+																					<!-- <h3 mc:edit="header" style="color:#707070;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Message Title</h3> -->
+																					<!-- <div mc:edit="body" style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#707070;line-height:135%;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</div> -->
+																					<table border="1" style="text-align: center;">
 																						<tr>
 																							<th>Estado</th>
 																							<th>Aliquota</th>
 																						</tr>
 																						<tr>
 																							<td>AC</td>
-																							<td>4% (causa mortis) / 2% (doação)</td>
+																							<td>4% (causa mortis) / 2% (doação) uiashiasuiahsiausuahsuahsuhas</td>
 																						</tr>
 																						<tr>
 																							<td>AC</td>
@@ -750,7 +749,7 @@ Sizes: [
 							</tr>
 							<!-- // MODULE ROW -->
 
-
+						</div>
 
 
 							<!-- MODULE DIVIDER // -->
@@ -797,22 +796,22 @@ Sizes: [
 
 
 
-							<!-- MODULE ROW // -->
+							<!-- MODULE ROW //
 							<tr>
 								<td align="center" valign="top">
-									<!-- CENTERING TABLE // -->
+									
 									<table border="0" cellpadding="0" cellspacing="0" width="100%">
 										<tr>
 											<td align="center" valign="top">
-												<!-- FLEXIBLE CONTAINER // -->
+												
 												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
 													<tr>
 														<td valign="top" width="500" class="flexibleContainerCell">
 
-															<!-- CONTENT TABLE // -->
+															
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
 																<tr>
-																	<td align="left" valign="top" class="flexibleContainerBox" style="background-color:#5F5F5F;">
+																	<td align="left" valign="top" class="flexibleContainerBox" style="background-color:#707070;">
 																		<table border="0" cellpadding="30" cellspacing="0" width="100%" style="max-width:100%;">
 																			<tr>
 																				<td align="left" class="textContent">
@@ -834,19 +833,19 @@ Sizes: [
 																	</td>
 																</tr>
 															</table>
-															<!-- // CONTENT TABLE -->
+															
 
 														</td>
 													</tr>
 												</table>
-												<!-- // FLEXIBLE CONTAINER -->
+												
 											</td>
 										</tr>
 									</table>
-									<!-- // CENTERING TABLE -->
+									
 								</td>
 							</tr>
-							<!-- // MODULE ROW -->
+							// MODULE ROW -->
 
 
 							<!-- MODULE ROW // -->
@@ -868,7 +867,7 @@ Sizes: [
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
 																				<td valign="top" class="textContent">
-																					<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">Empty row for your custom contents</div>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:12px;margin-bottom:0;margin-top:3px;color:#707070;line-height:135%;">Atenciosamente, Escritório André Teixeira Rossi Andrade & Schneider Peper Saadi Advogados</div>
 																				</td>
 																			</tr>
 																		</table>
@@ -888,10 +887,26 @@ Sizes: [
 								</td>
 							</tr>
 							<!-- // MODULE ROW -->
-
+		<!-- MODULE ROW // -->
+		<tr >
+			<td align="center" valign="top" >
+				<!-- CENTERING TABLE // -->
+				<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+					<tr>
+						<td align="center" valign="top">
+							<!-- FLEXIBLE CONTAINER // -->
+							<img src="https://imgur.com/EWXXiFO.png" alt="" width="100%">
+							<!-- // FLEXIBLE CONTAINER -->
+						</td>
+					</tr>
+				</table>
+				<!-- // CENTERING TABLE -->
+			</td>
+		</tr>
+		<!-- // MODULE ROW -->
+<!-- background footer https://imgur.com/EWXXiFO.png -->
 						</table>
 						<!-- // END -->
-
 						<!-- EMAIL FOOTER // -->
 						<!--
 							The table "emailBody" is the email's container.
@@ -920,9 +935,9 @@ Sizes: [
 																<tr>
 																	<td valign="top" bgcolor="#E1E1E1">
 
-																		<div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-																			<div>Copyright &#169; 2020 <a href="#" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">Rodrigo</span></a>. All&nbsp;rights&nbsp;reserved.</div>
-																			<!-- <div>If you do not want to receive emails from us, you can <a href="#" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">unsubscribe</span></a>.</div> -->
+																		<div style="font-family:Helvetica,Arial,sans-serif;font-size:10px;color:#707070;text-align:center;line-height:120%;">
+																			<div>Todos os direitos reservados © 2020 Escritório de Advocacia André Teixeira & Associados.<br> Rua Teófilo Otoni 82 - 19º andar - Centro - Rio de Janeiro - RJ - CEP: 20.090-070 <br> Rua Padre Garcia Velho 73, cj. 52, - Pinheiros - São Paulo – SP - CEP: 05421-030</div>
+																			<div ><a style="color:#707070;" href="#" target="_blank" rel="noopener noreferrer">Privacy Policy </a>| <a style="color:#707070;" href="#" target="_blank" rel="noopener noreferrer">Terms & Conditions</a> </div>
 																		</div>
 
 																	</td>
